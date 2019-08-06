@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.wrapper {
+    background: #feeae2;
+    min-height: 700px;
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.header_heading {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+.header_heading__name-game {
+    color: #2f6061;
+}
+
+table {
+    /* margin: 30px auto; */
+}
+
+.viev-step {
+    margin-right: 20px;
+}
+
+#restart {
+    background: #2f6061;
+    border: none;
+    outline: none;
+    color: #fff;
+    width: 80px;
+    height: 30px;
+    display: block;
+    margin: 20px auto;
+    cursor: pointer;
+}
+
+#restart:active {
+    background: #7b8988;
+}
+
+#field td {
+    border: 1px solid #323131;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
